@@ -1,2 +1,2 @@
 # memo-App
-With Flutter and Django backend Api
+With Flutter and  a custom Django API
