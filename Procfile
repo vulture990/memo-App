@@ -1,3 +1,3 @@
-web: gunicorn memo-App.wsgi --log-file -
+web: gunicorn trackmemo.wsgi --log-file -
 
 
