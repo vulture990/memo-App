@@ -134,4 +134,4 @@ STATIC_URL = '/static/'
 
 
 CORS_ALLOW_ALL_ORIGINS = True
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
