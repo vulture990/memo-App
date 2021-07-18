@@ -10,34 +10,34 @@ from api import serializers
 def getRoutes(resquest):
     routes=[
         {
-            'Endpoint': '/todo/',
+            'Endpoint': '/notes/',
             'method':'GET',
             'body':None,
             'description':'Returns an array of todos'
         },
          
          {
-            'Endpoint': '/todo/id',
+            'Endpoint': '/notes/id',
             'method':'GET',
             'body':None,
             'description':'Returns a todos object'
         },
          
         {
-            'Endpoint': '/todo/create/',
+            'Endpoint': '/notes/create/',
             'method':'POST',
             'body':{'body':""},
             'description':'Creates a new todos with data sent in a post request'
         },
         {
-            'Endpoint': '/todo/id/update/',
+            'Endpoint': '/notes/id/update/',
             'method':'PUT',
             'body':{'body':""},
             'description':'Create an existing todos with data sent in put req'
     
         },
         {
-            'Endpoint': '/todo/id/delete/',
+            'Endpoint': '/notes/id/delete/',
             'method':'DELETE',
             'body':None,
             'description':'Deletes an existing todos'
